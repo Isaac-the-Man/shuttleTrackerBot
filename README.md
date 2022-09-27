@@ -14,3 +14,8 @@ Rename `template.env.txt` to `.env` and fill out the following configurable opti
 | SCRAPE_INTERVAL | Time interval (seconds) for the bot to make a request to the PING_URL |
 
 Assuming `python3` and all related packages were installed, the entry point of the program is simply `main.py`.
+
+Or run ShuttleTrackerBot using the `pm2` proccess manager:
+```
+pm2 start ecosystem.config.js
+```
